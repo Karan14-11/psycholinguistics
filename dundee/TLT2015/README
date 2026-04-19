@@ -1,0 +1,21 @@
+README The Dundee Treebank
+
+You are allowed to use the work for research purposes.
+
+The file TheDundeeTreebank_vx-x.csv contains manual dependency annotations described in:
+
+Barrett, Agic and Søgaard (2015) "The Dundee Treebank" In: Proc. of the 14th International Workshop on Treebanks and 
+Linguistic Theories (TLT14)
+
+The file contains the following columns
+Itemno,	WNUM, SentenceID, ID, CPOS, Head, DepRel
+
+Itemno		contains the number of the article (1-20) of the Dundee corpus. 
+WNUM		contains a word number that maps to the Dundee Corpus. The Dundee corpus has punctuation and contractions glued to the main word. For this version we separated them but kept the same WNUM for both parts
+SentenceID	Unique SentenceID within the same Itemno.
+ID 		Unique word ID within the same SentenceID. This column is referred to in the col DepRel
+CPOS		Penn Treebank Part-of-speech
+Head		The ID of the head of this word
+DepRel		The type of dependency relation to the head
+
+In case of questions, please contact barrett[at]hum.ku.dk

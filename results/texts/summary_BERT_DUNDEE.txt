@@ -1,0 +1,16 @@
+=== Cognitive Symmetry Report: BERT on DUNDEE ===
+
+Metrics Explanation:
+- Regression-In Rate: How often humans 'look back' to this word during reading.
+- Mean Attention Entropy: The average spread of the LLM's attention heads. High entropy means the model is 'searching' its context window broadly.
+- Surprisal: Information theory measure of how unexpected the word is to the LLM.
+
+Results:
+1. Correlation (Attention Entropy vs Human Regression-In): -0.1075
+   -> If positive and significant (e.g., > 0.3), this suggests that when human readers struggle to integrate a word and look back, the LLM also struggles and 'looks broadly' across its context via high attention entropy.
+
+2. Correlation (Word Surprisal vs Human Regression-In): 0.2142
+   -> If positive, it validates the Expectation-Based Syntactic Comprehension theory: words highly unexpected (surprising) to the LLM cause humans to backtrack.
+
+3. Correlation (Attention Entropy vs Human Regression-Out): nan
+   -> Indicates if the LLM's attention spreads precisely where humans *originate* their backwards look.
