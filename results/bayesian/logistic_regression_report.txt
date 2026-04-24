@@ -1,0 +1,161 @@
+=================================================================
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+LOGISTIC REGRESSION: P(Regression Occurs) ~ Surprisal + Entropy
+=
+
+                   Results: Generalized linear model
+=======================================================================
+Model:                GLM                  AIC:             2770.5853  
+Link Function:        Logit                BIC:             -35851.3126
+Dependent Variable:   regression_occurred  Log-Likelihood:  -1380.3    
+Date:                 2026-04-24 15:33     LL-Null:         -1524.3    
+No. Observations:     4585                 Deviance:        2760.6     
+Df Model:             4                    Pearson chi2:    4.97e+03   
+Df Residuals:         4580                 Scale:           1.0000     
+Method:               IRLS                                             
+-----------------------------------------------------------------------
+                        Coef.  Std.Err.    z     P>|z|   [0.025  0.975]
+-----------------------------------------------------------------------
+const                  -2.4409   0.0608 -40.1774 0.0000 -2.5599 -2.3218
+surprisal               0.6150   0.0463  13.2844 0.0000  0.5243  0.7057
+entropy_mean            0.6824   0.0677  10.0852 0.0000  0.5498  0.8151
+struct_passive         -0.0585   0.0541  -1.0820 0.2793 -0.1646  0.0475
+struct_relative_clause  0.0076   0.0484   0.1577 0.8747 -0.0872  0.1025
+=======================================================================
+
+
+
+Coefficient Interpretation (standardised):
+--------------------------------------------------
+  const                    : β = -2.4409  95% CI [-2.5599, -2.3218]  p = 0.0000 ***
+  surprisal                : β = +0.6150  95% CI [+0.5243, +0.7057]  p = 0.0000 ***
+  entropy_mean             : β = +0.6824  95% CI [+0.5498, +0.8151]  p = 0.0000 ***
+  struct_passive           : β = -0.0585  95% CI [-0.1646, +0.0475]  p = 0.2793 
+  struct_relative_clause   : β = +0.0076  95% CI [-0.0872, +0.1025]  p = 0.8747 

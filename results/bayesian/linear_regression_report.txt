@@ -1,0 +1,169 @@
+=================================================================
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+LINEAR REGRESSION: Reading Time ~ Surprisal + Entropy
+=
+
+                     Results: Ordinary least squares
+==========================================================================
+Model:                  OLS                Adj. R-squared:       0.011    
+Dependent Variable:     reading_time       AIC:                  2948.5978
+Date:                   2026-04-24 15:33   BIC:                  2969.5082
+No. Observations:       484                Log-Likelihood:       -1469.3  
+Df Model:               4                  F-statistic:          2.086    
+Df Residuals:           479                Prob (F-statistic):   0.0816   
+R-squared:              0.019              Scale:                25.636   
+--------------------------------------------------------------------------
+                        Coef.   Std.Err.    z     P>|z|   [0.025   0.975] 
+--------------------------------------------------------------------------
+const                  162.1710   0.2316 700.0955 0.0000 161.7170 162.6250
+surprisal                0.4145   0.2810   1.4750 0.1402  -0.1363   0.9654
+entropy_mean            -0.4052   0.2240  -1.8086 0.0705  -0.8443   0.0339
+struct_passive          -0.3031   0.2814  -1.0772 0.2814  -0.8546   0.2484
+struct_relative_clause   0.1717   0.2218   0.7740 0.4389  -0.2630   0.6064
+--------------------------------------------------------------------------
+Omnibus:                 64.460          Durbin-Watson:             0.844 
+Prob(Omnibus):           0.000           Jarque-Bera (JB):          98.935
+Skew:                    -0.866          Prob(JB):                  0.000 
+Kurtosis:                4.382           Condition No.:             1     
+==========================================================================
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+
+R² = 0.0191
+Adjusted R² = 0.0110
+
+Coefficient Interpretation (standardised):
+--------------------------------------------------
+  const                    : β = +162.1710  95% CI [+161.7170, +162.6250]  p = 0.0000 ***
+  surprisal                : β = +0.4145  95% CI [-0.1363, +0.9654]  p = 0.1402 
+  entropy_mean             : β = -0.4052  95% CI [-0.8443, +0.0339]  p = 0.0705 
+  struct_passive           : β = -0.3031  95% CI [-0.8546, +0.2484]  p = 0.2814 
+  struct_relative_clause   : β = +0.1717  95% CI [-0.2630, +0.6064]  p = 0.4389 

@@ -1,0 +1,58 @@
+========================================================================
+COGNITIVE SYMMETRY: COMPREHENSIVE REPORT
+Model: GPT2  |  Dataset: DUNDEE
+========================================================================
+
+Data Summary:
+  Total aligned word-tokens:  4585
+  Total unique sentences:     200
+  Text files processed:       3
+  Surprisal range:            [0.00, 40.57]
+  Mean entropy:               1.1835 ± 0.4733
+  Mean regression-in prob:     0.0152
+  Mean regression-out prob:    0.0004
+  Mean reading time:           162.2 ms (σ = 5.1)
+
+--------------------------------------------------
+CORRELATION RESULTS (Pearson r)
+--------------------------------------------------
+  entropy_vs_reg_in             : r = +0.1311  p = 4.97e-19  ***
+  entropy_vs_reg_out            : r = +0.0401  p = 6.67e-03  **
+  surprisal_vs_reg_in           : r = +0.1730  p = 4.03e-32  ***
+  surprisal_vs_reg_out          : r = +0.0591  p = 6.30e-05  ***
+  rt_vs_entropy                 : r = +0.1405  p = 1.18e-21  ***
+  rt_vs_surprisal               : r = +0.2155  p = 2.51e-49  ***
+
+--------------------------------------------------
+TOP SACCADIC HEADS (by |r| with Regression-In)
+--------------------------------------------------
+  L 1 H11: r = +0.4345  p = 1.47e-210
+  L 7 H 4: r = +0.3342  p = 4.53e-120
+  L10 H 5: r = +0.3139  p = 2.18e-105
+  L 9 H 4: r = +0.2855  p = 1.04e-86
+  L11 H 5: r = +0.2391  p = 1.32e-60
+  L 6 H 3: r = +0.2322  p = 3.45e-57
+  L 9 H 9: r = +0.2039  p = 3.23e-44
+  L 4 H 8: r = +0.2029  p = 8.05e-44
+  L 0 H 5: r = +0.2018  p = 2.50e-43
+  L11 H 7: r = +0.2010  p = 5.11e-43
+
+--------------------------------------------------
+SENTENCE STRUCTURE BREAKDOWN
+--------------------------------------------------
+  active: 146 sentences, 3155 words
+  passive: 38 sentences, 914 words
+  relative_clause: 16 sentences, 516 words
+
+--------------------------------------------------
+INTERPRETATION
+--------------------------------------------------
+  ✓ POSITIVE surprisal–regression correlation (r=0.173).
+    → Validates the Expectation-Based theory: words unexpected to GPT-2
+      trigger real human back-tracking behaviour.
+
+  ✓ POSITIVE entropy–regression correlation (r=0.131).
+    → When humans look back, GPT-2's attention also 'searches' broadly.
+      Supports the Cognitive Symmetry hypothesis.
+
+========================================================================
