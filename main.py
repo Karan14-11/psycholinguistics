@@ -51,6 +51,10 @@ def main():
     dundee_df = load_dundee_dataset("dundee")
     process_dataset("DUNDEE", dundee_df, evaluators)
     
+    # Process GECO dataset
+    geco_df = load_geco_dataset("data/geco.csv")
+    process_dataset("GECO", geco_df, evaluators)
+    
     print("Pipeline Complete! Check 'results' folder for output artifacts.")
 
 if __name__ == "__main__":
